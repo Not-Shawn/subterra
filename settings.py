@@ -1,0 +1,30 @@
+# colors
+WHITE = (255, 255, 255)
+LIGHTGREY = (190, 190, 190)
+GREY = (125, 125, 125) 
+DARKGREY = (65, 65, 65)
+BLACK = (0, 0, 0)
+
+RED = (255, 0, 0)
+YELLOW = (255, 255, 0)
+GREEN = (0, 255, 0)
+CYAN = (0, 255, 255)
+BLUE = (0, 0, 255)
+CYAN = (255, 0, 255)
+
+# game settings
+WIDTH = 1024   # 16 * 64 or 32 * 32 or 64 * 16
+HEIGHT = 768  # 16 * 48 or 32 * 24 or 64 * 12
+FPS = 10
+TITLE = "Tilemap Demo"
+BGCOLOR = DARKGREY
+TILESIZE = 100
+
+GRIDWIDTH = WIDTH / TILESIZE
+GRIDHEIGHT = HEIGHT / TILESIZE
+
+# Player settings
+PLAYER_SPEED = 400
+
+GRID_EDGE = [12, 15, -3, -7]
+PACKAGES = ['Core']

@@ -1,0 +1,23 @@
+Directory
+
+folder/
+    test/
+    packages/
+        bse_modules/
+            tilebase.py
+            horrorbase.py
+        *package/
+            data.json
+            actions.py
+            tiles.py
+            items.py
+            characters.py
+            tileset/
+                *img
+    __init__.py
+    extract.py
+    grid.py
+    main.py
+    settings.py
+    player.py
+
